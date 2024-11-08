@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="/" class="logo">
+                <img src="images/logo-dark.png" alt="Logo Dark" class="logo-img dark-logo" id="logo-dark">
+                <img src="images/logo-light.png" alt="Logo Light" class="logo-img light-logo" id="logo-light">
+            </a>
+                        
+            <ul class="nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Community</a></li>    
+            </ul>
+        </div>
+        <div class="header-right">
+           <a href="#" class="signin">Sign in</a> 
+           <a href="#" class="icon-light" onclick="toggleLightDark();"><i class="bi bi-sun-fill"></i></a>
+           <a href="#" class="icon-dark" onclick="toggleLightDark();"><i class="bi bi-moon-fill"></i></a>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h2 class="title">Great Meetings Are Just The Beginning</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quae non expedita nisi earum ab odio hic et repellendus. Voluptatibus, esse officiis commodi quidem distinctio eaque eum. Aut quia fugiat error, soluta tempora, facere cumque culpa doloremque, quidem accusantium nemo?</p>
+            
+            <!-- Cards Section -->
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/img1.jpg" alt="Image 1">
+                    <div class="card-content">
+                        <h1>Title One</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ut deserunt non omnis?</p>
+                        <a href="#" class="card-button">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/img2.jpg" alt="Image 2">
+                    <div class="card-content">
+                        <h1>Title Two</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ut deserunt non omnis?</p>
+                        <a href="#" class="card-button">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/img3.jpg" alt="Image 3">
+                    <div class="card-content">
+                        <h1>Title Three</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ut deserunt non omnis?</p>
+                        <a href="#" class="card-button">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="link">
+        <a href="https://www.google.co.in/search?sca_esv=e93e60d6922639eb&sca_upv=1&sxsrf=ADLYWIKfw-_nV96QVMQQrUUsLL_iIOyeQg:1727335138056&q=getuninterrupted.com+reviews&uds=ADvngMinzf45rJO9g2WPHGp-2jZcTKjrgTPMVdXSldQNqZcfNdUSyM5Wh_gx6gY811Im_2VRZSDqz5dnIbgotOpCtf7bcopV7JlMeJ3jX5MObvmkL_fDNSWVKKaAC7ILLmlAMxKHM4i62hG3NVw61d7ZcOUuHQGm3qZRRbcXF5l0F6LHH2YTywWo67XUUKoJgbPgi5x26BX4nXJDDMn4dJtMzNnvq2LgKdUrCL5PUCNeUaVyLjxk3vcBwB4A0nSEdiog7KBzLcfLKkXHsjuZpmUc2gmrxrADCXVHbN9dCHt_WAE3Y-zXLfzIM45s5dKM1svYNmUNJS_mjOZ2ec155M_BuWzwtEfK2BxV9DPtwHt0IbnqE69ZJZDIUiQLICypH7pBVAcY0giE&si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7siPEwlCS_mEYuo2lH3Xj7NjATGwSwOxJ1YTW304tBy3B_94UwCfLWA6k8A4DS9PtLmA-IpvmRtBBgj2aOgO5oqoJ8Q4rOEmxSlIWdYepDXCr0HngQ%3D%3D&sa=X&ved=2ahUKEwj1ir_qiOCIAxUh2TgGHe4MPXcQk8gLegQIGRAB&ictx=1&stq=1" target="_blank" class="chat"><i class="bi bi-chat-quote"></i></a>
+        <p><b>Join us now</b></p>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
